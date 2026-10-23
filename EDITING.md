@@ -1,6 +1,6 @@
 # Customer Editing Guide — Namratha & Srihari Wedding Invitation
 
-This template is an illustrated wedding invitation for Namratha & Srihari featuring a tap-to-open video opener gate, illustrated couple hero cover card, custom monogram, background music player, parents blessing card, celebration events (Reception & Wedding Muhurtham), interactive lantern-wish animation, venue map, and family compliments.
+This template is an illustrated wedding invitation for Namratha & Srihari featuring a tap-to-open video opener gate, illustrated couple hero cover card, custom monogram, background music player, parents blessing card, celebration events (Wedding Muhurtham), interactive lantern-wish animation, venue map, and family compliments.
 
 ---
 
@@ -20,9 +20,9 @@ Edit `couple` in `editable/wedding-data.js`:
 
 ### Wedding Date & Timeline Events
 Edit `wedding`, `events`, and `eventDates` in `editable/wedding-data.js`:
-- `dateLabel`: "25 & 26 November 2026"
+- `dateLabel`: "26 November 2026"
 - `weddingISO`: "2026-11-26T09:15:00+05:30"
-- `events[]`: Reception (25 Nov 2026, 7:00 PM onwards) and Wedding Muhurtham (26 Nov 2026, 9:15 AM to 10:00 AM)
+- `events[]`: Wedding Muhurtham (26 Nov 2026, 9:15 AM to 10:00 AM)
 - `eventDates`: Key-value map of ISO timestamps for generating multi-event calendar entries
 
 ### Venue & Maps
@@ -47,5 +47,5 @@ Replace files directly in `editable/assets/` or update paths in `editable/weddin
 - **Cover Hero Page**: Displays the couple portrait card with symbol and names as the opening page of the invitation, opening directly with no flashing gates.
 - **Royal Typography**: Highlighted Great Vibes calligraphy script in royal burgundy for couple names, Cinzel for invocations and relation titles, neat and uniform Cormorant Garamond serif for parents' names, and refined Cormorant Garamond for venue and event headings.
 - **Background Music Player**: Floating audio control button playing "A Thousand Years" piano cover with auto-unlock on interaction.
-- **Multi-Event Calendar Export**: Downloadable `.ics` file containing Reception and Muhurtham.
+- **Calendar Export**: Downloadable `.ics` file containing Wedding Muhurtham.
 - **Scroll Reveal**: Sections fade and slide into view on scroll.

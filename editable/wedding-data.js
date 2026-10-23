@@ -1,6 +1,6 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for seashell-vows
- * Namratha & Srihari Wedding & Reception Invitation
+ * Namratha & Srihari Wedding Invitation
  */
 
 window.WEDDING_DATA = {
@@ -19,9 +19,8 @@ window.WEDDING_DATA = {
   },
 
   wedding: {
-    dateLabel: "25 & 26 November 2026",
+    dateLabel: "26 November 2026",
     weddingDateLabel: "Thursday, 26 November 2026",
-    receptionDateLabel: "Wednesday, 25 November 2026",
     weddingISO: "2026-11-26T09:15:00+05:30",
   },
 
@@ -33,14 +32,6 @@ window.WEDDING_DATA = {
 
   events: [
     {
-      name: "Reception",
-      glyph: "🪷",
-      date: "Wednesday, 25 Nov 2026",
-      time: "7:00 PM onwards",
-      venue: "Brigade MLR Convention Centre",
-      note: "7th Phase, J.P Nagar, Bengaluru - 560078",
-    },
-    {
       name: "Wedding (Muhurtham)",
       glyph: "🪔",
       date: "Thursday, 26 Nov 2026",
@@ -51,7 +42,6 @@ window.WEDDING_DATA = {
   ],
 
   eventDates: {
-    Reception: "2026-11-25T19:00:00+05:30",
     "Wedding (Muhurtham)": "2026-11-26T09:15:00+05:30",
   },
 
