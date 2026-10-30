@@ -64,6 +64,7 @@ window.WEDDING_DATA = {
     footerWash: "./editable/assets/footer-wash-DG1rtX_C.jpg",
     heroCard: "./editable/assets/opener-card.jpg",
     openerVideo: "./editable/assets/wedding-opener.mp4",
+    ogImage: "./editable/assets/og-image.png",
   },
 
   music: {

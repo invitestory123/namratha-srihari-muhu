@@ -39,6 +39,7 @@ Replace files directly in `editable/assets/` or update paths in `editable/weddin
 - Background music: `editable/assets/bgm.mp3`
 - Opener video: `editable/assets/wedding-opener.mp4`
 - Hero card (Page 1): `editable/assets/opener-card.jpg`
+- OG share image: `editable/assets/og-image.png`
 
 ---
 
